@@ -7,7 +7,7 @@ class Team {
     if (this.members.has(hero)) {
       throw new Error("Этот герой уже присутствует в команде");
     }
-    this.members.set(hero);
+    this.members.add(hero);
   }
 
   addAll(...heroes) {
