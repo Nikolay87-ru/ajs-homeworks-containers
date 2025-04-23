@@ -11,7 +11,7 @@ class Team {
   }
 
   addAll(...heroes) {
-    heroes.forEach((hero) => this.members.set(hero));
+    heroes.forEach((hero) => this.members.add(hero));
   }
 
   toArray() {
