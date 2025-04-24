@@ -1,4 +1,4 @@
-import Team from "../team.js";
+import Team from "../Team.js";
 
 test("should add hero to team", () => {
   const team = new Team();
