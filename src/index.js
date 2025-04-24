@@ -1,5 +1,7 @@
-import './css/style.css';
+import "./css/style.css";
 
-import './js/Team';
+import "./js/Team";
 
-import './js/ErrorRepository';
+import "./js/ErrorRepository";
+
+import "./js/Settings";
