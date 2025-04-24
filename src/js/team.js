@@ -1,4 +1,4 @@
-class Team {
+export default class Team {
   constructor() {
     this.members = new Set();
   }
@@ -18,5 +18,3 @@ class Team {
     return Array.from(this.members);
   }
 }
-
-export default Team;
